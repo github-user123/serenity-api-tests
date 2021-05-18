@@ -1,6 +1,6 @@
-/Users/vaishali.salunkhe/Documents/Personal Development/serenity-api-tests/src/test/java/model/DataHelper.java
-/Users/vaishali.salunkhe/Documents/Personal Development/serenity-api-tests/src/test/java/helpers/Helpers.java
-/Users/vaishali.salunkhe/Documents/Personal Development/serenity-api-tests/src/test/java/stepdefs/PocSteps.java
-/Users/vaishali.salunkhe/Documents/Personal Development/serenity-api-tests/src/test/java/hooks/Hooks.java
-/Users/vaishali.salunkhe/Documents/Personal Development/serenity-api-tests/src/test/java/model/UserData.java
-/Users/vaishali.salunkhe/Documents/Personal Development/serenity-api-tests/src/test/java/runners/CucumberWithSerenityRunner.java
+/Users/vaishali.salunkhe/Documents/Personal Development/API-TechTest/serenity-api-tests/src/test/java/helpers/Helpers.java
+/Users/vaishali.salunkhe/Documents/Personal Development/API-TechTest/serenity-api-tests/src/test/java/model/UserData.java
+/Users/vaishali.salunkhe/Documents/Personal Development/API-TechTest/serenity-api-tests/src/test/java/stepdefs/UsersSteps.java
+/Users/vaishali.salunkhe/Documents/Personal Development/API-TechTest/serenity-api-tests/src/test/java/hooks/Hooks.java
+/Users/vaishali.salunkhe/Documents/Personal Development/API-TechTest/serenity-api-tests/src/test/java/model/DataHelper.java
+/Users/vaishali.salunkhe/Documents/Personal Development/API-TechTest/serenity-api-tests/src/test/java/runners/CucumberWithSerenityRunner.java
