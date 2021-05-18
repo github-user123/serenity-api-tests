@@ -12,7 +12,7 @@ import java.util.List;
 import static hooks.Hooks.dataHelper;
 import static net.serenitybdd.rest.SerenityRest.*;
 
-public class PocSteps {
+public class UsersSteps {
 
     @Given("the GET request to list the users")
     public void theListOfUsers() {
