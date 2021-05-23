@@ -6,6 +6,8 @@ import io.cucumber.java.en.Then;
 import net.serenitybdd.rest.SerenityRest;
 import org.junit.Assert;
 
+import java.util.ArrayList;
+import java.util.Collection;
 import java.util.List;
 //import java.util.Map;
 
@@ -109,11 +111,15 @@ public class UsersSteps {
     @And("list of users live in London 50 miles radius")
     public void listOfUsersInLondon50MilesRadius() {
         //TODO add solution to calculate user location based on latitude and longitude, bug needs to be fixed before this.
-       List<String> resFirstName = SerenityRest.lastResponse().jsonPath().getList("first_name");
-        System.out.println("List of users who live around London:");
-      for (String user : resFirstName) {
-          System.out.println(user);
-          Assert.assertEquals(SerenityRest.lastResponse().jsonPath().getJsonObject("first_name"), resFirstName);
+       ArrayList<Object> resLat = SerenityRest.lastResponse().jsonPath().get("latitude");
+        System.out.println("List of users who live around London:" +resLat);
+      //  Double[] actualLat = {-6.511591, -6.709855, 27.69417, -8.184485, 37.13, 5.7204204};
+        for (Object user : resLat) {
+            // System.out.println(user);
+            if (user.getClass() == Float.class) {
+                System.out.println(user);
+            }
+            Assert.assertEquals(SerenityRest.lastResponse().jsonPath().getJsonObject("latitude"), resLat);
         }
 
     }

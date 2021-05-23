@@ -13,6 +13,7 @@
         <maven.compiler.source>${java.version}</maven.compiler.source>
         <maven.compiler.target>${java.version}</maven.compiler.target>
         <serenity.version>2.3.12</serenity.version>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <serenity.cucumber.version>2.1.2</serenity.cucumber.version>
         <serenity.maven.version>2.3.12</serenity.maven.version>
     </properties>
